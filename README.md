@@ -24,14 +24,12 @@ A diferencia de los scripts DDNS tradicionales, este utiliza una técnica de TTL
 
 Edita la sección **`CONFIGURACIÓN`** al inicio del script (`ddns-whm.sh`) con tus datos:
 
-================= CONFIGURACIÓN =================
 WHM_URL="https://josefina.servidorlinux15.com:2087" # Tu URL de acceso WHM/cPanel (puede ser diferente)
 WHM_USER="TU_USUARIO_DE_WHM"                        # Tu usuario de WHM
 WHM_PASS="TU_CONTRASEÑA_DE_WHM_AQUI"                # Tu contraseña de WHM
 ZONA_DNS="TU DOMINIO AQUI"                          # El dominio principal de la zona
 SUBDOMINIO="TU SUB DOMINIO AQUI"                    # El subdominio a actualizar
 TTL_TEMPORAL=300                                    # 5 minutos para propagación rápida
-===============================================
 
 ## 📝 Notas del API
 El script utiliza la función editzonerecord de WHM API 1 (el método más compatible con la autenticación básica de WHM para este tipo de tareas).
@@ -40,5 +38,5 @@ La variable SUBDOMINIO debe coincidir con el registro existente en cPanel.
 ## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si encuentras errores o tienes sugerencias de mejora, por favor, abre un 'Issue' o un 'Pull Request'.
 
-##📜 Licencia
+## 📜 Licencia
 Distribuido bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
