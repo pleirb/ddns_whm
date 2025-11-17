@@ -34,11 +34,11 @@ SUBDOMINIO="TU SUB DOMINIO AQUI"                    # El subdominio a actualizar
 TTL_TEMPORAL=300                                    # 5 minutos para propagación rápida
 # ===============================================
 
-##📝 Notas del API
+## 📝 Notas del API
 El script utiliza la función editzonerecord de WHM API 1 (el método más compatible con la autenticación básica de WHM para este tipo de tareas).
 La variable SUBDOMINIO debe coincidir con el registro existente en cPanel.
 
-##🤝 Contribuciones
+## 🤝 Contribuciones
 Las contribuciones son bienvenidas. Si encuentras errores o tienes sugerencias de mejora, por favor, abre un 'Issue' o un 'Pull Request'.
 
 ##📜 Licencia
